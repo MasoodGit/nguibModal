@@ -1,0 +1,411 @@
+{
+  "statusMessage": "SUCCESS",
+  "payload": {
+    "investigationTestDetails": {
+      "Parasitology": [
+        {
+          "identifier": "e2d13dbd-92ca-4ffe-b793-3b3cd0929a22",
+          "category": "Parasitology",
+          "test": "Maleria B5 (Under 5years)"
+        },
+        {
+          "identifier": "3017e168-0929-48f1-8e81-9fd26434414c",
+          "category": "Parasitology",
+          "test": "Hookwarm"
+        },
+        {
+          "identifier": "b3aa8e80-27e0-429e-a2b1-0d3dc615b370",
+          "category": "Parasitology",
+          "test": "Ameoba"
+        },
+        {
+          "identifier": "069d8bea-c6e0-47be-bdd3-833b059feecc",
+          "category": "Parasitology",
+          "test": "Maleria Rapid Diagnostic tests"
+        },
+        {
+          "identifier": "fd035e8c-eb8f-42d3-be7b-afb2753736b8",
+          "category": "Parasitology",
+          "test": "Roundwarms"
+        },
+        {
+          "identifier": "1b82aa62-d425-4fdc-bd8a-a67ba4dc8238",
+          "category": "Parasitology",
+          "test": "Stool Examination"
+        }
+      ],
+      "Haemotology": [
+        {
+          "identifier": "3ff6e5be-4466-4682-a15d-deaf501b3fd2",
+          "category": "Haemotology",
+          "test": "Full Blood Count"
+        },
+        {
+          "identifier": "8659a86a-a2b4-4c4d-aef8-99d22a935413",
+          "category": "Haemotology",
+          "test": "BMA"
+        },
+        {
+          "identifier": "21f7dd1a-2594-4483-bf88-f05b549e6118",
+          "category": "Haemotology",
+          "test": "HB estimation tests(othertechniques)"
+        },
+        {
+          "identifier": "b5db1cf6-4bce-4b15-932f-1504894a19b9",
+          "category": "Haemotology",
+          "test": "Coagulation profile"
+        },
+        {
+          "identifier": "276337d9-ac2f-4171-ac8c-df11bb69b485",
+          "category": "Haemotology",
+          "test": "Blood grouping test"
+        },
+        {
+          "identifier": "20170bae-dd92-45fe-8835-aad70d459ef1",
+          "category": "Haemotology",
+          "test": "CD4 Count"
+        },
+        {
+          "identifier": "8b96e574-925b-4c32-b146-bfa5770920f6",
+          "category": "Haemotology",
+          "test": "Reticulocyte counts"
+        },
+        {
+          "identifier": "133db7c7-7fc9-46eb-b268-d81461f8a1bd",
+          "category": "Haemotology",
+          "test": "blood safety"
+        },
+        {
+          "identifier": "2a942615-1641-4282-83ec-31bc57015ce5",
+          "category": "Haemotology",
+          "test": "Erythrocyte sedimentation rate"
+        },
+        {
+          "identifier": "c76508f9-d8ef-4eff-b0cd-d0621a7a1b58",
+          "category": "Haemotology",
+          "test": "HIV"
+        }
+      ],
+      "Urine Analysis": [
+        {
+          "identifier": "52af99a7-8114-4140-93bf-4e8f280a23ad",
+          "category": "Urine Analysis",
+          "test": "Urine chemistry"
+        },
+        {
+          "identifier": "b9b735aa-a3f7-4fda-88aa-172e42c41037",
+          "category": "Urine Analysis",
+          "test": "Glucose"
+        },
+        {
+          "identifier": "093691e9-e828-429a-94fd-be3ddf7d4bd7",
+          "category": "Urine Analysis",
+          "test": "Proteins"
+        },
+        {
+          "identifier": "7f9b5662-679e-4b6f-940b-877e8304d7ad",
+          "category": "Urine Analysis",
+          "test": "Ketones"
+        },
+        {
+          "identifier": "9a0d0408-8033-4939-90df-ba637867a0d9",
+          "category": "Urine Analysis",
+          "test": "Urine Microscopy"
+        },
+        {
+          "identifier": "1c0b7793-8d55-4350-872f-ec03989912c6",
+          "category": "Urine Analysis",
+          "test": "Pus Cells (5/Hpf)"
+        },
+        {
+          "identifier": "3ae7861e-fe17-46a8-9724-63579c3de98b",
+          "category": "Urine Analysis",
+          "test": "Appearance"
+        },
+        {
+          "identifier": "071c8343-d28d-4f2c-aa99-f0167fc5a0ff",
+          "category": "Urine Analysis",
+          "test": "S. Haematobium"
+        },
+        {
+          "identifier": "59f17e8d-5826-4213-8b60-fa55b94fc965",
+          "category": "Urine Analysis",
+          "test": "T. Vaginalis"
+        },
+        {
+          "identifier": "1b2fc38e-ed00-4412-ba36-7773f9a41888",
+          "category": "Urine Analysis",
+          "test": "Yeast Cells"
+        },
+        {
+          "identifier": "227ae166-29d5-4f42-94e4-e0e2bcfde043",
+          "category": "Urine Analysis",
+          "test": "Bacteria"
+        },
+        {
+          "identifier": "406b20a6-a56e-42dc-9416-3783e53af287",
+          "category": "Urine Analysis",
+          "test": "Spermatozoa"
+        }
+      ],
+      "Serology": [
+        {
+          "identifier": "ee1a720b-84a0-4dda-aa0d-8c0ffd4b56bf",
+          "category": "Serology",
+          "test": "CDRL"
+        },
+        {
+          "identifier": "58e60e5c-0a26-484c-91d0-0b03cf553ac2",
+          "category": "Serology",
+          "test": "Hepatitis B test"
+        },
+        {
+          "identifier": "9b06a064-b0e2-46dd-bb0d-0a508d1b6f8c",
+          "category": "Serology",
+          "test": "Hepatitis C test"
+        },
+        {
+          "identifier": "facf32b3-7b1c-4c90-bb18-b7fe491ff91c",
+          "category": "Serology",
+          "test": "TPHA"
+        },
+        {
+          "identifier": "c7276b1a-7863-4513-8443-8bbfc64bc95e",
+          "category": "Serology",
+          "test": "ASOT"
+        },
+        {
+          "identifier": "572a86d9-2211-4bfc-b6d2-a242eb06011d",
+          "category": "Serology",
+          "test": "Dental"
+        }
+      ],
+      "Histology and cytology": [
+        {
+          "identifier": "ebb602ab-6573-48e6-9c17-1a7e6c081c11",
+          "category": "Histology and cytology",
+          "test": "Ovary"
+        },
+        {
+          "identifier": "d655754d-31cc-4365-9aad-028b965d97c0",
+          "category": "Histology and cytology",
+          "test": "Ascitic Fluid"
+        },
+        {
+          "identifier": "06c775e9-8fe2-456c-840f-217c13c096f8",
+          "category": "Histology and cytology",
+          "test": "Bone marrow studies"
+        },
+        {
+          "identifier": "f7e61706-1465-4c6d-94bf-fcd16830ac24",
+          "category": "Histology and cytology",
+          "test": "CGF"
+        },
+        {
+          "identifier": "af22335b-c419-4308-9de2-50c9477b8557",
+          "category": "Histology and cytology",
+          "test": "Uterus"
+        },
+        {
+          "identifier": "1728cd9d-0052-457b-9d55-76d474dbd460",
+          "category": "Histology and cytology",
+          "test": "Breast tissue"
+        },
+        {
+          "identifier": "6fdeb334-4a29-4095-9b10-d86fb4383e12",
+          "category": "Histology and cytology",
+          "test": "Tussue Histology"
+        }
+      ],
+      "Blood Chemistry": [
+        {
+          "identifier": "4cf3d3ef-49c1-45a6-9c12-917ae59cbe12",
+          "category": "Blood Chemistry",
+          "test": "Blood Sugar"
+        },
+        {
+          "identifier": "cd1a4a22-1ef6-426f-9f79-78a7a66e6d3e",
+          "category": "Blood Chemistry",
+          "test": "ALAT (SGPT)"
+        },
+        {
+          "identifier": "0d5f7acb-1503-40bc-aa30-77bc196576e0",
+          "category": "Blood Chemistry",
+          "test": "TSH"
+        },
+        {
+          "identifier": "1b317ac3-2e8f-4948-a8cc-90bdb57c0df2",
+          "category": "Blood Chemistry",
+          "test": "OGTT"
+        },
+        {
+          "identifier": "f90922db-39ce-4e09-89d3-2b6c681b5f17",
+          "category": "Blood Chemistry",
+          "test": "Serium Protein"
+        },
+        {
+          "identifier": "6db036cb-4353-4279-8f72-2a33bce94081",
+          "category": "Blood Chemistry",
+          "test": "PSA"
+        },
+        {
+          "identifier": "a765bcc8-b5b7-4093-bcc2-d8d6d7890525",
+          "category": "Blood Chemistry",
+          "test": "Renal Functional Test"
+        },
+        {
+          "identifier": "949c617e-7d18-41c0-a5ed-8d1aeb7555b6",
+          "category": "Blood Chemistry",
+          "test": "Albumin"
+        },
+        {
+          "identifier": "9d633569-73cc-4aa1-a84c-e4ed47a36e84",
+          "category": "Blood Chemistry",
+          "test": "HCG"
+        },
+        {
+          "identifier": "d0b74583-919b-45cc-9fcd-36a65334cd79",
+          "category": "Blood Chemistry",
+          "test": "Creatinine"
+        },
+        {
+          "identifier": "458e9af2-bb4f-47eb-b752-fdaf7218fe7f",
+          "category": "Blood Chemistry",
+          "test": "Alkaline Phosphatase"
+        },
+        {
+          "identifier": "a0ab76ce-24f7-4826-b1d6-6fab70e3c321",
+          "category": "Blood Chemistry",
+          "test": "Urea"
+        },
+        {
+          "identifier": "1695b5cd-b2fc-4ccc-ab6e-64386f194d7b",
+          "category": "Blood Chemistry",
+          "test": "Lipid Profile"
+        },
+        {
+          "identifier": "03ead0d8-dad5-4dec-bed6-4a47729451db",
+          "category": "Blood Chemistry",
+          "test": "Tumer Markers"
+        },
+        {
+          "identifier": "fe199f53-82ee-45f2-893b-9311933f1701",
+          "category": "Blood Chemistry",
+          "test": "Sodium"
+        },
+        {
+          "identifier": "7b1a22cf-be92-42be-9b7d-f801ba5fd003",
+          "category": "Blood Chemistry",
+          "test": "Total Cholesterol"
+        },
+        {
+          "identifier": "b8d9cfde-40e5-47ca-9677-d63bc8c2afca",
+          "category": "Blood Chemistry",
+          "test": "CEA"
+        },
+        {
+          "identifier": "e2055b44-fbb8-4e61-b307-c2ba75ef2730",
+          "category": "Blood Chemistry",
+          "test": "Liver function test"
+        },
+        {
+          "identifier": "5735d40c-c466-43db-ba6b-092c580b86f5",
+          "category": "Blood Chemistry",
+          "test": "Triglycerides"
+        },
+        {
+          "identifier": "063cee9e-10df-4727-83f7-45178e37c998",
+          "category": "Blood Chemistry",
+          "test": "C15 -3"
+        },
+        {
+          "identifier": "fba3316f-d81f-45bd-a68c-8058bb1575f9",
+          "category": "Blood Chemistry",
+          "test": "Direct Bilirubin"
+        },
+        {
+          "identifier": "dfb420a4-a62a-4f42-8ecd-a16f78b0f7bd",
+          "category": "Blood Chemistry",
+          "test": "LDL"
+        },
+        {
+          "identifier": "daf2bbfe-74a1-49f3-9719-1da40f439a63",
+          "category": "Blood Chemistry",
+          "test": "C&F Chemistry"
+        },
+        {
+          "identifier": "9c0629ee-16a2-494b-aa7c-9d19e2057e0f",
+          "category": "Blood Chemistry",
+          "test": "Total Bilirubin"
+        },
+        {
+          "identifier": "93cc33c9-2ba0-4c6f-852e-46ae23335e2c",
+          "category": "Blood Chemistry",
+          "test": "Hormonal test"
+        },
+        {
+          "identifier": "d63022e1-4bbe-4593-b4ce-8db94ebf48a8",
+          "category": "Blood Chemistry",
+          "test": "Proteins"
+        },
+        {
+          "identifier": "7c052d15-b0e9-4e3a-8dce-430cac6848bf",
+          "category": "Blood Chemistry",
+          "test": "ASAT (SGOT)"
+        },
+        {
+          "identifier": "c33f364b-df88-4faa-816e-3d5cf96d597a",
+          "category": "Blood Chemistry",
+          "test": "T3"
+        },
+        {
+          "identifier": "063c9e5b-9a7c-4fff-8e02-0140c6db0805",
+          "category": "Blood Chemistry",
+          "test": "Glucose"
+        },
+        {
+          "identifier": "e06f1e6b-6f1b-4c35-88d5-6159d4e8524c",
+          "category": "Blood Chemistry",
+          "test": "T4"
+        }
+      ],
+      "Bacteriology": [
+        {
+          "identifier": "970acab7-47f5-4607-b888-35382f100156",
+          "category": "Bacteriology",
+          "test": "Stool Cultures"
+        },
+        {
+          "identifier": "e93b33b0-0dc6-4d70-91d2-8d9ba571d92e",
+          "category": "Bacteriology",
+          "test": "Neisseria Maningitis B"
+        },
+        {
+          "identifier": "6886380c-8de3-4406-ba90-448c02275c13",
+          "category": "Bacteriology",
+          "test": "B. arthyracis"
+        },
+        {
+          "identifier": "c8cf3d93-f7f4-4c07-8fd9-874478b26e5a",
+          "category": "Bacteriology",
+          "test": "Neisseria Maningitis C"
+        },
+        {
+          "identifier": "8df72817-f14e-4e5e-85c9-9d18e43c3101",
+          "category": "Bacteriology",
+          "test": "Y. pastis"
+        },
+        {
+          "identifier": "718e78bc-efd7-44de-97fc-a35752d096fa",
+          "category": "Bacteriology",
+          "test": "Sputum"
+        },
+        {
+          "identifier": "914e824c-def7-4c43-a1ca-6361f936c60e",
+          "category": "Bacteriology",
+          "test": "Streptococci"
+        }
+      ]
+    }
+  }
+}

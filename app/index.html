@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Angular Modal</title>
+  <link rel="stylesheet" type="text/css" 
+  href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body ng-controller="appController as appCtrl">
+<button class="btn btn-danger" ng-click="appCtrl.openModal()">
+  Launch Modal 
+</button>
+
+
+
+
+
+<script type="text/ng-template" id="investigationsModalContent.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Investigations</h3>
+    </div>
+    <div class="modal-body" style="overflow:auto">
+      <div ng-repeat="(testCategory,tests) in modalCtrl.investigationTests">
+
+      <div class="col-md-4" >
+        <div ng-if= "testCategory === 'Urine Analysis'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Urine Analysis' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+        <div  ng-if= "testCategory === 'Haemotology'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Haemotology' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+        <div ng-if= "testCategory === 'Serology'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Serology' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+      </div>
+
+
+      <div class="col-md-4" >
+        <div class="col-sm-12" ng-if= "testCategory === 'Blood Chemistry'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Blood Chemistry' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+        <div class="col-sm-12" ng-if= "testCategory === 'Bacteriology'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Bacteriology' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+      </div>
+
+      <div class="col-md-4" >
+        <div class="col-sm-12" ng-if= "testCategory === 'Parasitology'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Parasitology' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+        <div class="col-sm-12" ng-if= "testCategory === 'Histology and cytology'">
+            <h2 >{{testCategory}}</h2>
+            <label ng-repeat="test in tests | filter : { category : 'Histology and cytology' }">
+              <input type="checkbox"
+                value = "{{test.test}}"
+                name = "tests"
+               />
+               {{test.test}}
+            </label>
+            <hr/>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <hr/>
+      <button class="btn btn-primary" type="button" ng-click="modalCtrl.ok()">
+        OK
+      </button>
+       
+    </div>
+</script>
+
+
+
+
+
+
+<script 
+src="../bower_components/jquery/dist/jquery.js"></script>
+<script 
+src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script 
+src="../bower_components/angular/angular.js"></script>
+<script 
+src="../bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
